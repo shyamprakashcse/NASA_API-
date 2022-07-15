@@ -32,7 +32,7 @@ function Movie() {
    
   </div>
 
-  <h3 className='card-footer text-center foot'>Copyright @{new Date().getFullYear()} ShyamPrakash.cse</h3>
+  <h3 className='card-footer text-center foot'>Copyright @{new Date().getFullYear() + item.copyright}</h3>
 </div> 
 
                             )
